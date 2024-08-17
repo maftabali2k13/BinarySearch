@@ -5,9 +5,6 @@ public class Main {
 
         int target = 19;
 
-        for(int i=0;i < 10;i++)
-            System.out.println(i + " Hello world!");
-
         Solution sol = new Solution();
         System.out.println("Index is " + sol.binarySearch(nums, target));
     }
